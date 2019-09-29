@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(imagenes/PORTADA.jpg);
+    background-image: url(../img/PORTADA.jpg);
     
     background-size: cover;
     background-attachment: fixed;
@@ -21,37 +21,30 @@ header{
 	z-index: 100;
 }
 
-.menu{
+
+.menu { 
     text-align: center;
+    li {
+        display:inline-block;
+        position: relative;
+        a {
+            display:inline-block;
+            text-decoration: none;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: white;
+            padding: 0px 30px;
+        }
+        a:hover {
+            display:inline-block;
+            text-decoration: none;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: orange;
+            padding: 0px 30px;
+        }
+    }   
 }
 
-.menu li {
-    display:inline-block;
-    position: relative;
-    
-    
-
-
-    
-}
-
-.menu li a {
-    display:inline-block;
-    text-decoration: none;
-    font-family: 'Noto Sans JP', sans-serif;
-    color: white;
-    
-    padding: 0px 30px;
-}
-
-.menu li a:hover {
-    display:inline-block;
-    text-decoration: none;
-    font-family: 'Noto Sans JP', sans-serif;
-    color: orange;
-    
-    padding: 0px 30px;
-}
+ 
 
 .titulo{
     color: white;

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/PORTADA.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top; }
+
+header {
+  background: black;
+  padding: 10px 40px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
+
+.menu {
+  text-align: center; }
+  .menu li {
+    display: inline-block;
+    position: relative; }
+    .menu li a {
+      display: inline-block;
+      text-decoration: none;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: white;
+      padding: 0px 30px; }
+    .menu li a:hover {
+      display: inline-block;
+      text-decoration: none;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: orange;
+      padding: 0px 30px; }
+
+.titulo {
+  color: white;
+  font-size: 100px;
+  font-family: 'Bitter', serif;
+  margin-top: 25%;
+  position: relative;
+  text-align: center;
+  height: 100vh; }
+
+.subtitulo {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  color: white;
+  padding: 30px 0px;
+  text-align: center; }
+
+.seccion {
+  background: black;
+  margin: 5%; }
+
+/*INTEGRANTES*/
+.imagen-integrante {
+  border-radius: 100%;
+  margin: auto;
+  height: 250px;
+  display: inline-block; }
+
+.integrantes {
+  display: inline-block; }
+
+.nombre {
+  font-family: 'Bitter', serif;
+  color: white;
+  font-size: 20px; }
+
+.instrumento {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: grey; }
+
+/*HISTORA*/
+.historia {
+  color: grey;
+  padding: 0px 30px; }
+
+.videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+/*DISCOGRAFIA*/
+.disco {
+  height: 300px; }
