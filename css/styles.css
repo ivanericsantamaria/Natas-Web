@@ -4,12 +4,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  background-image: url(../img/PORTADA.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top; }
-
 header {
   background: black;
   padding: 10px 40px;
@@ -37,58 +31,75 @@ header {
       color: orange;
       padding: 0px 30px; }
 
+body {
+  background-image: url(../img/PORTADA.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top; }
+
+section {
+  background: black;
+  margin: 5%; }
+
 .titulo {
   color: white;
   font-size: 100px;
   font-family: 'Bitter', serif;
-  margin-top: 25%;
+  margin-top: 30%;
   position: relative;
   text-align: center;
-  height: 100vh; }
+  height: 100vh;
+  text-shadow: 2px 2px 8px #332e2e; }
 
 .subtitulo {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 30px;
+  font-family: 'Bitter', serif;
+  font-size: 40px;
   font-style: bold;
   color: white;
-  padding: 30px 0px;
+  padding: 25px 0px;
   text-align: center; }
 
-.seccion {
-  background: black;
-  margin: 5%; }
-
 /*INTEGRANTES*/
-.imagen-integrante {
-  border-radius: 100%;
-  margin: auto;
-  height: 250px;
-  display: inline-block; }
-
-.integrantes {
-  display: inline-block; }
+.contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr); }
+  .contenedor article {
+    text-align: center;
+    padding: 0px 0px 25px; }
 
 .nombre {
   font-family: 'Bitter', serif;
   color: white;
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: center;
+  padding: 25px 0px 0px; }
 
 .instrumento {
   font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
   font-size: 15px;
-  color: grey; }
+  color: grey;
+  text-align: center; }
+
+.imagen-integrante {
+  border-radius: 100%;
+  margin: auto;
+  height: 250px; }
 
 /*HISTORA*/
 .historia {
   color: grey;
-  padding: 0px 30px; }
+  padding: 0% 5%; }
+  .historia p {
+    font-family: 'Noto Sans JP', sans-serif; }
 
 .videos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px;
+  padding: 50px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
