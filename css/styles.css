@@ -67,7 +67,7 @@ section {
   grid-template-columns: repeat(3, 1fr); }
   .contenedor article {
     text-align: center;
-    padding: 0px 0px 25px; }
+    padding: 0px 0px 30px; }
 
 .nombre {
   font-family: 'Bitter', serif;
@@ -99,10 +99,17 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 50px;
+  padding: 10px 60px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: wrap row;
+  flex-flow: wrap row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 /*DISCOGRAFIA*/
 .disco {
