@@ -39,8 +39,9 @@
                 -->
                 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
                     
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"style="color:white;">
                       <span class="navbar-toggler-icon"></span>
+                      
                     </button>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -101,7 +102,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nihil vero, sequi totam dicta eveniet, soluta blanditiis ab, dolore placeat rem recusandae numquam quam voluptas. Saepe minus magnam excepturi nobis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil vero recusandae id quo neque exercitationem, enim quae, asperiores voluptatem fuga laborum, voluptate nulla quibusdam deserunt et ea nostrum illo!</p>
                     </article> 
                 <article class=".d-sm-none .d-md-block">
-                    <ul class="videos">
+                    <ul class="contenedor-videos">
                         <li>
                             <iframe width="340" height="315" src="https://www.youtube.com/embed/5vCkwLpzveY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </li>        
@@ -119,30 +120,73 @@
                     <article class="container centrar ">
                         <div class="row no-gutters">
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/delmar.jpg" alt="delmar">
+                                <div style="width: inherit; text-align: center;">
+                                    <p class="nombre-disco"><strong>Delmar</strong></p>
+                                    <p class="año-disco">1998</p>
+                                </div>
+                                <div>
+                                    <img class="disco" src="img/delmar.jpg" alt="delmar">
+                                </div>
                             </div>
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/ciudad.jpg" alt="ciudad-brahman">
+                                <div class="contenedor-info-disco">
+                                    <p class="nombre-disco"><strong>Ciudad de Brahman</strong></p>
+                                    <p class="año-disco">1999</p>
+                                </div>
+                                <div>
+                                    <img class="disco" src="img/ciudad.jpg" alt="ciudad-brahman">
+                                </div>
                             </div>
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/corsario.jpg" alt="corsario-negro">
+                                <div class="contenedor-info-disco">
+                                    <p class="nombre-disco"><strong>Corsario Negro</strong></p>
+                                    <p class="año-disco">2002</p>
+                                </div>
+                                <div>
+                                    <img class="disco" src="img/corsario.jpg" alt="corsario-negro">
+                                </div>        
                             </div>
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/toba.jpg" alt="toba-trance">
+                                <div class="contenedor-info-disco">   
+                                    <p class="nombre-disco"><strong>Toba Trance</strong></p>
+                                    <p class="año-disco">2004</p>
+                                </div>    
+                                <div>   
+                                    <img class="disco" src="img/toba.jpg" alt="toba-trance">
+                                </div>        
                             </div>
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/munchen.jpg" alt="munchen-sessions">
+                                <div class="contenedor-info-disco">
+                                    <p class="nombre-disco"><strong>München Sessions</strong></p>
+                                    <p class="año-disco">2005</p>
+                                </div>
+                                <div>
+                                    <img class="disco" src="img/munchen.jpg" alt="munchen-sessions">
+                                </div>
                             </div>
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/hombre.jpg" alt="hombre-montaña">
+                                <div class="contenedor-info-disco">
+                                    <p class="nombre-disco"><strong>El Hombre Montaña</strong></p>
+                                    <p class="año-disco">2006</p>
+                                </div>
+                                <div>
+                                    <img class="disco" src="img/hombre.jpg" alt="hombre-montaña">
+                                </div>   
                             </div>
                             <div class="col-md col-xs-12 col-sm-6 margen-bottom">
-                                <img class="disco" src="img/nuevo.jpg" alt="nuevo-orden">
+                                <div class="contenedor-info-disco">
+                                    <p class="nombre-disco"><strong>Nuevo Orden de la Libertad</strong></p>
+                                    <p class="año-disco">2009</p>
+                                </div>
+                                <div>
+                                    <img class="disco" src="img/nuevo.jpg" alt="nuevo-orden">
+                                </div>
                             </div>
                         </div>
                 </article>       
             
             <!--
+             style="">
                 <article class="contenedor-discos">
                     
                         <div class="disco">
@@ -242,7 +286,7 @@
                                 </div>
                                 <div class="form-group">
                                     
-                                    <label for="exampleFormControlSelect1">Pais</label>
+                                    <label class="pais" for="exampleFormControlSelect1">Pais</label>
                                         
                                         <select class="form-control" id="exampleFormControlSelect1">
                                 
@@ -496,7 +540,21 @@
             </section>
 
         <footer>
-
+            <div class="contenedor-footer">
+                <p>2019 - LOS NATAS</p>
+            </div>
+            
+            <div class="contenedor-redes">
+                
+                <i class="fab fa-spotify spotify"></i>
+                
+                <i class="fab fa-facebook facebook"></i>
+                
+            </div>
+        
+            <div class="contenedor-ivan">
+                <p>built by: Iván Santamaría</p>
+            </div>
         </footer>    
     </body>
 
