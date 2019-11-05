@@ -30,16 +30,28 @@ header {
     }
 }
 
-body {
-    background: url(../img/PORTADA.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
+@media (max-width: 640px) { 
+    body {
+        background: url(../img/PORTADA-MOB.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
 }
-
+@media (min-width: 641px) { 
+    body {
+        background: url(../img/PORTADA.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
 section {
 background: black;
 margin: 5%;
