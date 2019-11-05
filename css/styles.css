@@ -4455,12 +4455,11 @@ header {
 
 @media (max-width: 640px) {
   body {
-    background: url(../img/PORTADA-MOB.jpg) no-repeat center center fixed;
+    background: url(../img/PORTADA-MOB.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100%;
-    width: 100%; } }
+    background-size: cover; } }
 
 @media (min-width: 641px) {
   body {
