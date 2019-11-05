@@ -4453,11 +4453,19 @@ header {
   -o-transition: 0.5s;
   transition: 0.5s; }
 
-body {
-  background-image: url(../img/PORTADA.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top; }
+@media (max-width: 600px) {
+  body {
+    background-image: url(../img/PORTADA-MOB.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top; } }
+
+@media (min-width: 601px) {
+  body {
+    background-image: url(../img/PORTADA.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top; } }
 
 section {
   background: black;
@@ -4530,6 +4538,25 @@ section {
     font-family: 'Bitter', serif;
     font-weight: bold;
     margin-top: 27%;
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    text-shadow: 2px 2px 8px #332e2e; }
+  .subtitulo {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-style: bold;
+    color: white;
+    padding: 25px 0px;
+    text-align: center; } }
+
+@media (min-width: 1200px) {
+  .titulo {
+    color: white;
+    font-size: 150px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    margin-top: 35%;
     position: relative;
     text-align: center;
     height: 100vh;
@@ -4692,7 +4719,7 @@ section {
     .historia p {
       color: grey;
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 13px; } }
+      font-size: 14px; } }
 
 /*DISCOGRAFIA*/
 .centrar {
