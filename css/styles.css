@@ -4460,8 +4460,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    overflow: hidden; } }
+    height: 100%; } }
 
 @media (min-width: 641px) {
   body {
@@ -4470,8 +4469,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    overflow: hidden; } }
+    height: 100%; } }
 
 section {
   background: black;
