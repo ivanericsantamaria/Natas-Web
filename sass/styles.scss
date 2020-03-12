@@ -32,7 +32,8 @@ header {
 
 @media (max-width: 640px) { 
     body {
-        background: url(../img/PORTADA-MOB.jpg) no-repeat center center;
+        background: url(../img/PORTADA-MOB.jpg) no-repeat center center ;
+        background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -54,8 +55,28 @@ background: black;
 margin: 5%;
 padding:70px 0px;
 position: relative;
-   
+border-radius: 10%;
 }
+
+@media (max-width: 640px) { 
+    section {
+        background: black;
+        margin: 5%;
+        padding:70px 0px;
+        position: relative;
+        border-radius: 0%;
+        }
+} 
+
+@media (min-width: 641px) { 
+    section {
+        background: black;
+        margin: 5%;
+        padding:70px 0px;
+        position: relative;
+        border-radius: 10%;
+        }
+}    
 
 /*TITULOS*/
 
@@ -182,14 +203,16 @@ position: relative;
     text-align: center;
 }
 .imagen-integrante:hover {
-    transform: skew(-30deg);
+    transform: skew(-10deg);
     transition: 20s;
+    filter: contrast(140%);
 }
 .imagen-integrante {
 border-radius: 100%;
 margin: auto;
 height: 250px;
 padding: 0px 30px;
+filter: contrast(105%);
 }
 @media (max-width: 575px) { 
     .imagen-integrante {

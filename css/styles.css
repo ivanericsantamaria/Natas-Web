@@ -4456,6 +4456,7 @@ header {
 @media (max-width: 640px) {
   body {
     background: url(../img/PORTADA-MOB.jpg) no-repeat center center;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -4473,7 +4474,24 @@ section {
   background: black;
   margin: 5%;
   padding: 70px 0px;
-  position: relative; }
+  position: relative;
+  border-radius: 10%; }
+
+@media (max-width: 640px) {
+  section {
+    background: black;
+    margin: 5%;
+    padding: 70px 0px;
+    position: relative;
+    border-radius: 0%; } }
+
+@media (min-width: 641px) {
+  section {
+    background: black;
+    margin: 5%;
+    padding: 70px 0px;
+    position: relative;
+    border-radius: 10%; } }
 
 /*TITULOS*/
 @media (max-width: 575px) {
@@ -4588,18 +4606,22 @@ section {
   text-align: center; }
 
 .imagen-integrante:hover {
-  -webkit-transform: skew(-30deg);
-  -ms-transform: skew(-30deg);
-  transform: skew(-30deg);
+  -webkit-transform: skew(-10deg);
+  -ms-transform: skew(-10deg);
+  transform: skew(-10deg);
   -webkit-transition: 20s;
   -o-transition: 20s;
-  transition: 20s; }
+  transition: 20s;
+  -webkit-filter: contrast(140%);
+  filter: contrast(140%); }
 
 .imagen-integrante {
   border-radius: 100%;
   margin: auto;
   height: 250px;
-  padding: 0px 30px; }
+  padding: 0px 30px;
+  -webkit-filter: contrast(105%);
+  filter: contrast(105%); }
 
 @media (max-width: 575px) {
   .imagen-integrante {
